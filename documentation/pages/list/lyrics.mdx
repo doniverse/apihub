@@ -1,0 +1,20 @@
+## 🎶 Lyrics API
+
+All routes for the Lyrics API start with `/lyrics`
+
+### Get Lyrics
+
+Get the lyrics of a song by artist and title.
+
+- **URL**: `/lyrics/:artist/:title`
+- **Method**: GET
+- **URL Parameters**:
+  - `artist` (required): The name of the artist.
+  - `title` (required): The title of the song.
+- **Response**: Returns a JSON object with the lyrics of the requested song.
+
+```json
+{
+    "lyrics": "All the words I find, they never do you justice\nNo matter how I try, I can't articulate it\nYour love's too wide, too deep for human language\nIt's more than words can say, oh, it's more than I can fathom\n\nAnd I'm left in awe of who you are\nYour goodness leaves me speechless\nAnd I'm left in awe of who you are\nYour goodness leaves me breathless\n\nAnd I'm left in awe of who you are\nYour goodness leaves me speechless\nAnd I'm left in awe of who you are\nYour goodness leaves me breathless\n\nAll the words I find, they never do you justice\nNo matter how I try, I can't articulate it\nYour love's too wide, too deep for human language\nIt's more than words can say, oh, it's more than I can fathom\n\nAnd I'm left in awe of who you are\nYour goodness leaves me speechless\nAnd I'm left in awe of who you are\nYour goodness leaves me breathless\n\nAnd I'm left in awe of who you are\nYour goodness leaves me speechless\nAnd I'm left in awe of who you are\nYour goodness leaves me breathless";
+
+}
